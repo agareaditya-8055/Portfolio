@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/aditya_resume.pdf" target="_blank" rel="noopener noreferrer">
                 <FileText className="mr-2 h-4 w-4" /> Resume
               </a>
             </Button>
