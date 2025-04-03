@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Moon, Sun, Github, Linkedin, Mail } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from "../../../public/logo.png"
 
 const Navbar = () => {
   const dispatch = useAppDispatch();
@@ -47,7 +48,11 @@ const Navbar = () => {
       )}
     >
       <div className="container flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold text-gradient">Aditya Agare</Link>
+        <Link to="/" className="text-xl font-bold text-gradient">
+        
+          <img src={logo} alt="logo" className='w-12 h-12' />
+       
+        </Link>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
